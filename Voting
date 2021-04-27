@@ -6,7 +6,7 @@ int age;
 char str[60];
 cout<<"Enter name of the candidate"<<endl;
 cin.getline(str,100);
-cout<<"Enter age of voter"<<endl;
+cout<<"Enter age of the candidate"<<endl;
 cin >> age;
 if (age >= 18)
 {

@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+int age;
+char str[60];
+cout<<"Enter name of the candidate"<<endl;
+cin.getline(str,100);
+cout<<"Enter age of voter"<<endl;
+cin >> age;
+if (age >= 18)
+{
+cout << "You can vote "<<str<< endl;
+}
+else
+{
+cout << "You are underage "<<str<<endl;
+}
+return 0;
+}
